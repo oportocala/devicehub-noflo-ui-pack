@@ -31,8 +31,8 @@ module.exports = function (Tower) {
       },
 
       onToggle: function () {
-        console.log('toggle was clicked');
         this.setState({ value: !this.state.value });
+        //Tower.iipChanged(this.props.node, '', );
       },
 
       render: function () {
